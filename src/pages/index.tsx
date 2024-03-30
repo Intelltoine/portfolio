@@ -25,7 +25,6 @@ const Navigation = () => {
       let currentSection = "";
 
       sections.forEach((section) => {
-        console.log(section);
         const sectionElement = document.querySelector(section);
 
         if (sectionElement instanceof HTMLElement) {
