@@ -3,6 +3,7 @@ import {
   faXTwitter,
   faLinkedin,
   faInstagram,
+  faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 import CursorLightComponent from "../components/cursor-light";
 import DataBlockExpComponent from "@/components/data-block-exp";
@@ -107,6 +108,11 @@ export default function Home() {
               <li>
                 <a target="_blank" href="https://twitter.com/Intelltoine">
                   <FontAwesomeIcon icon={faXTwitter} color="white" />
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="https://github.com/Intelltoine">
+                  <FontAwesomeIcon icon={faGithub} color="white" />
                 </a>
               </li>
               <li>
