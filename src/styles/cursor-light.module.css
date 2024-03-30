@@ -1,0 +1,67 @@
+.cursorLight {
+  position: fixed;
+  width: 300px; /* Ajustez selon l'effet désiré */
+  height: 300px;
+  border-radius: 50%;
+  pointer-events: none;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.005
+  ); /* Réduire l'opacité pour un effet plus subtil */
+  box-shadow: 0 0 25px 20px rgba(255, 255, 255, 0.005); /* Augmenter le flou pour une dispersion plus large */
+  transform: translate(-39%, -39%);
+  border: none;
+}
+
+.cursorLight2 {
+  position: fixed;
+  width: 220px; /* Ajustez selon l'effet désiré */
+  height: 220px;
+  border-radius: 50%;
+  pointer-events: none;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.01
+  ); /* Réduire l'opacité pour un effet plus subtil */
+  box-shadow: 0 0 25px 20px rgba(255, 255, 255, 0.01); /* Augmenter le flou pour une dispersion plus large */
+  transform: translate(-35%, -35%);
+  border: none;
+}
+
+.cursorLight3 {
+  position: fixed;
+  width: 150px; /* Ajustez selon l'effet désiré */
+  height: 150px;
+  border-radius: 50%;
+  pointer-events: none;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.015
+  ); /* Réduire l'opacité pour un effet plus subtil */
+  box-shadow: 0 0 25px 20px rgba(255, 255, 255, 0.015); /* Augmenter le flou pour une dispersion plus large */
+  transform: translate(-25%, -25%);
+  border: none;
+}
+
+.cursorLight4 {
+  position: fixed;
+  width: 100px; /* Ajustez selon l'effet désiré */
+  height: 100px;
+  border-radius: 50%;
+  pointer-events: none;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.02
+  ); /* Réduire l'opacité pour un effet plus subtil */
+  box-shadow: 0 0 25px 20px rgba(255, 255, 255, 0.02); /* Augmenter le flou pour une dispersion plus large */
+  transform: translate(-25%, -25%);
+  border: none;
+}
