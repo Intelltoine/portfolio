@@ -54,7 +54,7 @@ const Navigation = () => {
         {[
           ["#about", "A propos"],
           ["#experiences", "Experiences"],
-          ["#projects", "Projets personnel"],
+          ["#projects", "Projets personnels"],
         ].map(([id, name]) => (
           <li key={id}>
             <a
@@ -106,12 +106,20 @@ export default function Home() {
             <ul className="flex gap-6 text-xl items-end mt-4">
               <li>
                 <a target="_blank" href="https://twitter.com/Intelltoine">
-                  <FontAwesomeIcon icon={faXTwitter} color="white" />
+                  <FontAwesomeIcon
+                    className="hover:text-emerald-200"
+                    icon={faXTwitter}
+                    color="white"
+                  />
                 </a>
               </li>
               <li>
                 <a target="_blank" href="https://github.com/Intelltoine">
-                  <FontAwesomeIcon icon={faGithub} color="white" />
+                  <FontAwesomeIcon
+                    className="hover:text-emerald-200"
+                    icon={faGithub}
+                    color="white"
+                  />
                 </a>
               </li>
               <li>
@@ -119,7 +127,11 @@ export default function Home() {
                   target="_blank"
                   href="https://www.linkedin.com/in/antoine-dubois-30198a134/"
                 >
-                  <FontAwesomeIcon icon={faLinkedin} color="white" />
+                  <FontAwesomeIcon
+                    className="hover:text-emerald-200"
+                    icon={faLinkedin}
+                    color="white"
+                  />
                 </a>
               </li>
               <li>
@@ -127,7 +139,11 @@ export default function Home() {
                   target="_blank"
                   href="https://www.instagram.com/antoine__dubs/"
                 >
-                  <FontAwesomeIcon icon={faInstagram} color="white" />
+                  <FontAwesomeIcon
+                    className="hover:text-emerald-200"
+                    icon={faInstagram}
+                    color="white"
+                  />
                 </a>
               </li>
             </ul>
@@ -146,7 +162,7 @@ export default function Home() {
                   l&apos;entreprise{" "}
                   <a
                     target="_blank"
-                    className="text-red-500"
+                    className="hover:text-emerald-200 text-slate-100"
                     href="https://www.cgi.com/france/fr-fr"
                   >
                     CGI
@@ -160,7 +176,7 @@ export default function Home() {
                   d&apos;autres horizons en rejoignant{" "}
                   <a
                     target="_blank"
-                    className="text-blue-500"
+                    className="hover:text-emerald-200 text-slate-100"
                     href="https://www.apside.com/fr/"
                   >
                     Apside
@@ -228,7 +244,7 @@ export default function Home() {
             <div>
               <section id="projects" className="mt-20 scroll-mt-20">
                 <h3 className="text-white mb-7 uppercase text-sm px-4">
-                  Projets personnel
+                  Projets personnels
                 </h3>
                 <div className="flex flex-col gap-16">
                   <DataBlockProjectComponent
@@ -280,7 +296,7 @@ export default function Home() {
                 Inspiré de{" "}
                 <a
                   target="_blank"
-                  className="text-emerald-200"
+                  className="hover:text-emerald-200 text-slate-200"
                   href="https://brittanychiang.com/"
                 >
                   Brittany Chiang
@@ -288,7 +304,7 @@ export default function Home() {
                 et entièrement codé sous&nbsp;
                 <a
                   target="_blank"
-                  className="text-emerald-200"
+                  className="hover:text-emerald-200 text-slate-200"
                   href="https://code.visualstudio.com/"
                 >
                   Visual Studio Code
@@ -298,7 +314,7 @@ export default function Home() {
               Développé en{" "}
               <a
                 target="_blank"
-                className="text-emerald-200"
+                className="hover:text-emerald-200 text-slate-200"
                 href="https://nextjs.org/"
               >
                 Next.js
@@ -306,7 +322,7 @@ export default function Home() {
               et&nbsp;
               <a
                 target="_blank"
-                className="text-emerald-200"
+                className="hover:text-emerald-200 text-slate-200"
                 href="https://tailwindcss.com/"
               >
                 Tailwind CSS
@@ -314,7 +330,7 @@ export default function Home() {
               . Déployé avec&nbsp;
               <a
                 target="_blank"
-                className="text-emerald-200"
+                className="hover:text-emerald-200 text-slate-200"
                 href="https://www.hostinger.fr/"
               >
                 Hostinger

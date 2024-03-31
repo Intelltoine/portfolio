@@ -38,7 +38,7 @@ export default function DataBlockProjectComponent({
             {titre}
             <FontAwesomeIcon
               icon={faArrowUpRightFromSquare}
-              className="text-white group-hover:text-emerald-200 ml-2"
+              className="text-white group-hover:text-emerald-200 ml-2 transition-all duration-300 ease-out transform group-hover:-translate-y-1"
             />
           </a>
         </h2>
